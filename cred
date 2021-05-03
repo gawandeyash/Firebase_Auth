@@ -1,0 +1,30 @@
+## Firebase
+REACT_APP_FIREBASE_KEY="AIzaSyAcPbOBP9js9jC6LGtm9ZjqwXjVpQjBQxM"
+REACT_APP_FIREBASE_DOMAIN="react-firebase-fc06e.firebaseapp.com"
+REACT_APP_FIREBASE_DATABASE="https://react-firebase-fc06e.firebaseio.com"
+REACT_APP_FIREBASE_PROJECT_ID="react-firebase-fc06e"
+REACT_APP_FIREBASE_STORAGE_BUCKET="react-firebase-fc06e.appspot.com" 
+REACT_APP_FIREBASE_SENDER_ID="564100058598"
+REACT_APP_FIREBASE_APP_ID="app_id"
+REACT_APP_FIREBASE_MEASUREMENT_ID="measurement id"
+
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyD-rj94JnX7nmEWZ80mqJ7wWGZp2V0owW4",
+    authDomain: "auth-965f1.firebaseapp.com",
+    projectId: "auth-965f1",
+    storageBucket: "auth-965f1.appspot.com",
+    messagingSenderId: "369793384802",
+    appId: "1:369793384802:web:98de716011a47aa2662c3b"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
